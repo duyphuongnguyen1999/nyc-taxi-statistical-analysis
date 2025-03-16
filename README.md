@@ -6,6 +6,33 @@ Applying statistical methods to explore NYC taxi trip data, based on concepts fr
 
 This project applies key statistical methods to analyze NYC taxi trip data, using concepts from "Practical Statistics for Data Scientists" (2nd Edition). The analysis covers exploratory data analysis (EDA), hypothesis testing, regression models, resampling methods, and machine learning techniques.
 
+---
+
+## 📊 Dataset Overview
+
+The NYC Taxi Trip Records dataset, provided by the New York City Taxi and Limousine Commission (TLC), comprises detailed information on taxi and for-hire vehicle trips in NYC. The dataset includes:
+
+- Yellow Taxi Trip Records: Traditional yellow cabs.
+- Green Taxi Trip Records: Boro taxis serving areas outside Manhattan.
+- For-Hire Vehicle (FHV) Trip Records: Services like Uber and Lyft.
+- High Volume For-Hire Vehicle (HVFHV) Trip Records: High-demand ride-sharing services.
+
+Each record captures:
+
+- Pickup and drop-off dates/times.
+- Pickup and drop-off locations.
+- Trip distances.
+- Itemized fares.
+- Rate types.
+- Payment types.
+- Driver-reported passenger counts.
+
+Data is stored in PARQUET format, optimized for large-scale data processing. Access the dataset [here](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page).
+
+Note: Ensure compliance with NYC's data privacy and usage regulations when utilizing this dataset.
+
+---
+
 ➡️ [Full Statistical Analysis Breakdown](reports/statistical_analysis.md)
 
 The insights and findings are presented through Jupyter notebooks, statistical scripts, and an interactive dashboard.  
